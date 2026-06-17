@@ -5,13 +5,13 @@ if [ -d "out" ]; then
 fi
 npm run build
 
-if [ ! -d "../../nginx/html" ]; then
-  echo "Error: ../../nginx/html directory does not exist."
+if [ ! -d "../../../nginx/html" ]; then
+  echo "Error: ../../../nginx/html directory does not exist."
   exit 1
 fi
 
-if [ -d "../../nginx/html/NER_annotation_tool" ]; then
-  rm -r ../../nginx/html/NER_annotation_tool
+if [ -d "../../../nginx/html/NER_annotation_tool" ]; then
+  rm -r ../../../nginx/html/NER_annotation_tool
 fi
 
-cp -r out ../../nginx/html/NER_annotation_tool
+cp -r out ../../../nginx/html/NER_annotation_tool

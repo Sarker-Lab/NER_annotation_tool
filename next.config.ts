@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   //basePath: '/ann',
   //assetPrefix: '/ann',
   
-  basePath: '/SarkerlabLLM/NER_annotation_tool',
-  assetPrefix: '/SarkerlabLLM/NER_annotation_tool/',
+  basePath: '/bmilabelapp/ner_annotation_tool',
+  assetPrefix: '/bmilabelapp/ner_annotation_tool/',
   //// Configure trailing slash behavior to match nginx
   trailingSlash: true,
 

@@ -1,40 +1,17 @@
 {
   "labels": [
     {
-      "name": "Heart Failure = Yes",
-      "colorIndex": 2
-    },
-    {
-      "name": "Heart Failure = No",
-      "colorIndex": 3
-    },
-    {
-      "name": "Cyanosis",
-      "colorIndex": 4
-    },
-    {
-      "name": "FALD",
-      "colorIndex": 5
-    },
-    {
-      "name": "Dysrhythmia",
-      "colorIndex": 6
-    },
-    {
-      "name": "PLE or PB",
-      "colorIndex": 7
-    },
-    {
-      "name": "Phenotype date",
+      "name": "test1",
       "colorIndex": 1
     },
     {
-      "name": "Fontan procedure date",
-      "colorIndex": 16
+      "name": "test2",
+      "colorIndex": 2 
     },
     {
-      "name": "not sure",
-      "colorIndex": 8
+      "name": "test3",
+      "colorIndex": 4
     }
+    
   ]
 }
