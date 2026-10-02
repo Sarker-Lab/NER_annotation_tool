@@ -27,12 +27,16 @@ Rebuild and redeploy after changing accounts or labels:
 ```bash
 npm run build
 ```
-
 This app is statically exported, so client-side login is a workflow gate, not server-side access control.
 
 ## Development
 
 ```bash
 npm install
+npm run dev
+```
+If you are using a Conda env, then run this instead:
+```bash
+npm ci
 npm run dev
 ```
